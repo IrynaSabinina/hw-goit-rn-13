@@ -17,7 +17,7 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
         <MainStack.Navigator
-          initialRouteName="Login"
+          initialRouteName="Home"
           screenOptions={{ headerShown: false }}
         >
           <MainStack.Screen
@@ -27,7 +27,7 @@ export default function App() {
           <MainStack.Screen name="Login" component={LoginScreen} />
           <MainStack.Screen name="Home" component={Home} />
         </MainStack.Navigator>
-        {/* <StatusBar style="auto" /> */}
+        <StatusBar style="auto" />
       </NavigationContainer>
     </View>
   );
