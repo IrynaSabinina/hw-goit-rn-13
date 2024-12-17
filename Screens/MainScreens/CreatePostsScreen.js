@@ -25,7 +25,7 @@ import {
 
 import SvgTrash from "../../assets/svg/SvgTrash";
 import SvgLocation from "../../assets/svg/SvgLocation";
-import SvgLoadPost from "../../assets/svg/SvgLoadPost";
+import SvgLoadPost from "../../assets/svg/SvgLoadPosts";
 
 const CreatePostsScreen = () => {
   const navigation = useNavigation();

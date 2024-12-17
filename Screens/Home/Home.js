@@ -29,12 +29,15 @@ const Home = () => {
           alignContent: "center",
           justifyContent: "center",
         },
+        tabBarActiveTintColor: "#ff6c00",
+        tabBarInactiveTintColor: "#212121",
+        tabBarShowLabel: false,
       })}
-      tabBarOptions={{
-        showLabel: false,
-        activeTintColor: "#ff6c00",
-        inactiveTintColor: "#212121",
-      }}
+      // tabBarOptions={{
+      //   showLabel: false,
+      //   activeTintColor: "#ff6c00",
+      //   inactiveTintColor: "#212121",
+      // }}
     >
       <ButtomTabs.Screen
         name="Posts"
