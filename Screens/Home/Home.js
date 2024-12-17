@@ -33,11 +33,6 @@ const Home = () => {
         tabBarInactiveTintColor: "#212121",
         tabBarShowLabel: false,
       })}
-      // tabBarOptions={{
-      //   showLabel: false,
-      //   activeTintColor: "#ff6c00",
-      //   inactiveTintColor: "#212121",
-      // }}
     >
       <ButtomTabs.Screen
         name="Posts"
